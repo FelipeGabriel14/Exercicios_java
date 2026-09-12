@@ -16,8 +16,9 @@ public class Main {
         else {
             pago = 50.00;
             System.out.println("Valor Pago Será: " + pago + " por você ter respeitado o limite !");
-        input.close();
+        
         }
+        input.close()
 
         }
     }
