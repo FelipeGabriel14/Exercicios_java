@@ -7,7 +7,6 @@ public class Main {
 
         var minutos = input.nextInt();
         
-        input.close();
         double pago = 50;
         if (minutos > 100) {
             var diferenca = (minutos - 100);
@@ -17,6 +16,7 @@ public class Main {
         else {
             pago = 50.00;
             System.out.println("Valor Pago Será: " + pago + " por você ter respeitado o limite !");
+        input.close();
         }
 
         }
